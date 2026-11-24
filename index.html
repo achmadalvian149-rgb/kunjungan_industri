@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunjungan Industri — Bursa Efek Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-ring"></div>
+            <span>BEI</span>
+        </div>
+    </div>
+
+    <!-- ===== CURSOR ===== -->
+    <div class="cursor" id="cursor"></div>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#beranda" class="nav-logo">
+                <span class="logo-icon">📈</span>
+                <span class="logo-text">BEI<span class="logo-dot">.</span>Visit</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#beranda" class="nav-link active" data-section="beranda">Beranda</a></li>
+                <li><a href="#profil" class="nav-link" data-section="profil">Profil BEI</a></li>
+                <li><a href="#kegiatan" class="nav-link" data-section="kegiatan">Kegiatan</a></li>
+                <li><a href="#galeri" class="nav-link" data-section="galeri">Galeri</a></li>
+                <li><a href="#video" class="nav-link" data-section="video">Video</a></li>
+                <li><a href="#refleksi" class="nav-link" data-section="refleksi">Refleksi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ===== HERO / LANDING PAGE ===== -->
+    <header class="hero" id="beranda">
+        <div class="hero-bg">
+            <div class="hero-particles" id="particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tag" data-animate="fade-up">Digital Documentation of Industrial Visit</p>
+            <h1 class="hero-title" data-animate="fade-up" data-delay="100">
+                Bursa Efek<br><span class="highlight">Indonesia</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="200">Dokumentasi lengkap kunjungan industri ke Bursa Efek Indonesia — menjelajahi pusat pasar modal terbesar di Indonesia.</p>
+            <div class="hero-buttons" data-animate="fade-up" data-delay="300">
+                <a href="#profil" class="btn btn-primary">
+                    <span>Jelajahi</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#video" class="btn btn-outline">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    <span>Tonton Video</span>
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="400">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="900">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Emiten Tercatat</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="12">0</span><span class="stat-suffix">M+</span>
+                    <span class="stat-label">Investor Aktif</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="1912">0</span>
+                    <span class="stat-label">Berdiri Sejak</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" data-animate="fade-up" data-delay="500">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Scroll ke bawah</span>
+        </div>
+    </header>
+
+    <!-- ===== PROFIL BEI ===== -->
+    <section class="section" id="profil">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Tentang</span>
+                <h2 class="section-title">Profil Bursa Efek Indonesia</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="profile-grid">
+                <div class="profile-card profile-main" data-animate="fade-right">
+                    <div class="profile-icon-wrap">
+                        <span class="profile-icon">🏛️</span>
+                    </div>
+                    <h3>Apa itu BEI?</h3>
+                    <p>Bursa Efek Indonesia (BEI) atau <em>Indonesia Stock Exchange</em> (IDX) adalah lembaga penyelenggara pasar modal di Indonesia. BEI merupakan hasil penggabungan dari Bursa Efek Jakarta (BEJ) dan Bursa Efek Surabaya (BES) pada tahun 2007.</p>
+                    <p>BEI berperan sebagai fasilitator perdagangan efek di Indonesia dan menyediakan infrastruktur untuk mendukung terselenggaranya perdagangan efek yang teratur, wajar, dan efisien.</p>
+                </div>
+
+                <div class="profile-card" data-animate="fade-left" data-delay="100">
+                    <span class="profile-icon">📍</span>
+                    <h3>Lokasi</h3>
+                    <p>Gedung Bursa Efek Indonesia, Jl. Jend. Sudirman Kav 52-53, Jakarta Selatan 12190</p>
+                </div>
+
+                <div class="profile-card" data-animate="fade-left" data-delay="200">
+                    <span class="profile-icon">🎯</span>
+                    <h3>Visi</h3>
+                    <p>Menjadi bursa yang kompetitif dengan kredibilitas tingkat dunia di pasar keuangan global.</p>
+                </div>
+
+                <div class="profile-card" data-animate="fade-left" data-delay="300">
+                    <span class="profile-icon">⚡</span>
+                    <h3>Misi</h3>
+                    <p>Menciptakan infrastruktur pasar keuangan yang terpercaya dan kredibel untuk mewujudkan pasar yang teratur, wajar, dan efisien.</p>
+                </div>
+
+                <div class="profile-card" data-animate="fade-left" data-delay="400">
+                    <span class="profile-icon">📊</span>
+                    <h3>Fungsi Utama</h3>
+                    <p>Menyediakan sistem dan sarana untuk mempertemukan penawaran jual dan beli efek serta menjaga kelangsungan perdagangan yang efisien.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== KEGIATAN KUNJUNGAN ===== -->
+    <section class="section section-dark" id="kegiatan">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Rangkaian</span>
+                <h2 class="section-title">Kegiatan Kunjungan</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Dokumentasi rangkaian kegiatan selama kunjungan industri ke Bursa Efek Indonesia</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item" data-animate="fade-right">
+                    <div class="timeline-marker">
+                        <span>1</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge">Persiapan</div>
+                        <h3>Briefing &amp; Persiapan</h3>
+                        <p>Melakukan koordinasi dan briefing sebelum keberangkatan. Mempersiapkan perlengkapan dokumentasi, daftar pertanyaan, dan materi yang perlu dipelajari tentang pasar modal Indonesia.</p>
+                        <div class="timeline-details">
+                            <span>📋 Briefing kelompok</span>
+                            <span>📝 Persiapan materi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-left">
+                    <div class="timeline-marker">
+                        <span>2</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge">Perjalanan</div>
+                        <h3>Keberangkatan ke BEI</h3>
+                        <p>Berangkat menuju Gedung Bursa Efek Indonesia di Jl. Jend. Sudirman, Jakarta Selatan. Perjalanan dilakukan bersama rombongan sekolah.</p>
+                        <div class="timeline-details">
+                            <span>🚌 Perjalanan bersama</span>
+                            <span>📍 Menuju Sudirman</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-right">
+                    <div class="timeline-marker">
+                        <span>3</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge">Kunjungan</div>
+                        <h3>Penerimaan &amp; Presentasi</h3>
+                        <p>Disambut oleh pihak BEI dan mendapatkan presentasi mengenai sejarah, fungsi, serta mekanisme perdagangan saham di Bursa Efek Indonesia.</p>
+                        <div class="timeline-details">
+                            <span>🎤 Presentasi BEI</span>
+                            <span>📈 Edukasi pasar modal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-left">
+                    <div class="timeline-marker">
+                        <span>4</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge">Eksplorasi</div>
+                        <h3>Tur Gedung BEI</h3>
+                        <p>Melakukan tur keliling gedung BEI, mengunjungi ruang perdagangan (<em>trading floor</em>), galeri BEI, dan melihat langsung aktivitas perdagangan saham yang berlangsung secara real-time.</p>
+                        <div class="timeline-details">
+                            <span>🏛️ Trading Floor</span>
+                            <span>🖥️ Sistem perdagangan</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-right">
+                    <div class="timeline-marker">
+                        <span>5</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge">Interaksi</div>
+                        <h3>Sesi Tanya Jawab</h3>
+                        <p>Mengikuti sesi tanya jawab interaktif dengan narasumber dari BEI. Mendiskusikan peluang investasi, cara memulai investasi saham, dan peran BEI dalam perekonomian Indonesia.</p>
+                        <div class="timeline-details">
+                            <span>❓ Diskusi interaktif</span>
+                            <span>💡 Insight investasi</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-animate="fade-left">
+                    <div class="timeline-marker">
+                        <span>6</span>
+                    </div>
+                    <div class="timeline-card">
+                        <div class="timeline-badge">Dokumentasi</div>
+                        <h3>Foto Bersama &amp; Penutupan</h3>
+                        <p>Sesi foto bersama di area ikonik BEI, termasuk di depan layar indeks saham dan logo BEI. Kegiatan ditutup dengan ucapan terima kasih dan pemberian kenang-kenangan.</p>
+                        <div class="timeline-details">
+                            <span>📸 Foto bersama</span>
+                            <span>🎁 Kenang-kenangan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== GALERI ===== -->
+    <section class="section" id="galeri">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Dokumentasi</span>
+                <h2 class="section-title">Galeri Foto</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Momen-momen penting selama kunjungan industri ke Bursa Efek Indonesia</p>
+            </div>
+
+            <div class="gallery-filter" data-animate="fade-up">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="persiapan">Persiapan</button>
+                <button class="filter-btn" data-filter="kunjungan">Kunjungan</button>
+                <button class="filter-btn" data-filter="dokumentasi">Dokumentasi</button>
+            </div>
+
+            <div class="gallery-masonry" id="galleryGrid">
+                <div class="gallery-item" data-category="persiapan" data-animate="zoom-in">
+                    <img src="foto1.jpeg" alt="Dokumentasi kunjungan BEI 1" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Persiapan Keberangkatan</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="persiapan" data-animate="zoom-in" data-delay="50">
+                    <img src="foto2.jpeg" alt="Dokumentasi kunjungan BEI 2" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Briefing Sebelum Berangkat</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="kunjungan" data-animate="zoom-in" data-delay="100">
+                    <img src="foto3.jpeg" alt="Dokumentasi kunjungan BEI 3" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Tiba di Gedung BEI</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="kunjungan" data-animate="zoom-in" data-delay="150">
+                    <img src="foto4.jpeg" alt="Dokumentasi kunjungan BEI 4" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Sesi Presentasi BEI</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="kunjungan" data-animate="zoom-in" data-delay="200">
+                    <img src="foto5.jpeg" alt="Dokumentasi kunjungan BEI 5" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Tur Trading Floor</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="kunjungan" data-animate="zoom-in" data-delay="250">
+                    <img src="foto6.jpeg" alt="Dokumentasi kunjungan BEI 6" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Layar Indeks Saham</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="dokumentasi" data-animate="zoom-in" data-delay="300">
+                    <img src="foto7.jpeg" alt="Dokumentasi kunjungan BEI 7" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Sesi Tanya Jawab</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="dokumentasi" data-animate="zoom-in" data-delay="350">
+                    <img src="foto8.jpeg" alt="Dokumentasi kunjungan BEI 8" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Foto Bersama Rombongan</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="dokumentasi" data-animate="zoom-in" data-delay="400">
+                    <img src="foto9.jpeg" alt="Dokumentasi kunjungan BEI 9" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span class="gallery-zoom">🔍</span>
+                        <p>Momen Penutupan</p>
+                    </div>
+                </div>
+            </div>
+            <p class="gallery-note" data-animate="fade-up"><em>* Tambahkan foto lainnya untuk memenuhi minimal 10 foto dokumentasi.</em></p>
+        </div>
+    </section>
+
+    <!-- ===== VIDEO VLOG ===== -->
+    <section class="section section-dark" id="video">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Vlog</span>
+                <h2 class="section-title">Video Kunjungan</h2>
+                <div class="section-line"></div>
+                <p class="section-desc">Video vlog dokumentasi selama kunjungan industri ke Bursa Efek Indonesia (durasi 90 detik)</p>
+            </div>
+
+            <div class="video-wrapper" data-animate="fade-up" data-delay="100">
+                <div class="video-container" id="videoContainer">
+                    <!-- Video vlog kunjungan BEI -->
+                    <video id="mainVideo" poster="foto1.jpeg" controls preload="metadata">
+                        <source src="video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-play-overlay" id="videoPlayOverlay">
+                        <button class="play-btn" id="playBtn">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        </button>
+                        <p>Klik untuk memutar video vlog</p>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <h3>📹 Vlog Kunjungan Industri ke BEI</h3>
+                    <p>Video dokumentasi perjalanan dan kegiatan selama kunjungan industri di Bursa Efek Indonesia, mulai dari persiapan, perjalanan, hingga eksplorasi di dalam gedung BEI.</p>
+                    <div class="video-meta">
+                        <span>⏱️ Durasi: 90 detik</span>
+                        <span>📅 November 2026</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== KESIMPULAN & REFLEKSI ===== -->
+    <section class="section" id="refleksi">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Penutup</span>
+                <h2 class="section-title">Kesimpulan &amp; Refleksi</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="refleksi-grid">
+                <div class="refleksi-card refleksi-kesimpulan" data-animate="fade-right">
+                    <div class="refleksi-header">
+                        <span class="refleksi-icon">📝</span>
+                        <h3>Kesimpulan</h3>
+                    </div>
+                    <div class="refleksi-body">
+                        <p>Kunjungan industri ke Bursa Efek Indonesia memberikan pengalaman yang sangat berharga dan membuka wawasan baru mengenai dunia pasar modal. Beberapa poin penting yang dapat disimpulkan:</p>
+                        <ul>
+                            <li><strong>Pemahaman Pasar Modal:</strong> Mendapatkan pemahaman langsung tentang mekanisme perdagangan saham, peran BEI sebagai penyelenggara pasar modal, dan pentingnya pasar modal bagi perekonomian Indonesia.</li>
+                            <li><strong>Teknologi Modern:</strong> Melihat secara langsung bagaimana teknologi canggih digunakan dalam sistem perdagangan efek yang berlangsung secara real-time.</li>
+                            <li><strong>Literasi Keuangan:</strong> Meningkatkan pemahaman tentang investasi dan pentingnya literasi keuangan sejak usia muda sebagai bekal masa depan.</li>
+                            <li><strong>Dunia Kerja Profesional:</strong> Mendapatkan gambaran nyata tentang lingkungan kerja profesional di industri keuangan.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="refleksi-card refleksi-refleksi" data-animate="fade-left">
+                    <div class="refleksi-header">
+                        <span class="refleksi-icon">💭</span>
+                        <h3>Refleksi Kegiatan</h3>
+                    </div>
+                    <div class="refleksi-body">
+                        <p>Kunjungan ini memberikan dampak positif yang signifikan terhadap perspektif saya tentang dunia keuangan dan investasi:</p>
+
+                        <blockquote>
+                            "Melalui kunjungan ini, saya menyadari bahwa pasar modal bukan hanya tentang angka dan grafik, melainkan tentang bagaimana sebuah sistem yang terorganisir dapat menggerakkan perekonomian sebuah negara."
+                        </blockquote>
+
+                        <p><strong>Hal yang paling berkesan:</strong></p>
+                        <ul>
+                            <li>Melihat langsung suasana <em>trading floor</em> yang dinamis dan penuh energi</li>
+                            <li>Memahami bahwa investasi dapat dimulai dari nominal yang kecil</li>
+                            <li>Mengetahui peran penting BEI dalam melindungi investor</li>
+                        </ul>
+
+                        <p><strong>Rencana ke depan:</strong> Saya berencana untuk mempelajari lebih dalam tentang investasi saham dan reksa dana sebagai langkah awal membangun literasi keuangan yang lebih baik.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">📈</span>
+                    <span class="logo-text">BEI<span class="logo-dot">.</span>Visit</span>
+                </div>
+                <p class="footer-desc">Digital Documentation of Industrial Visit — Bursa Efek Indonesia</p>
+                <p class="footer-credit">Tugas Kunjungan Industri &copy; 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+    </button>
+
+    <!-- ===== LIGHTBOX ===== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose">&times;</button>
+        <button class="lightbox-prev" id="lightboxPrev">&#10094;</button>
+        <button class="lightbox-next" id="lightboxNext">&#10095;</button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImg">
+            <p class="lightbox-caption" id="lightboxCaption"></p>
+            <div class="lightbox-counter" id="lightboxCounter"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
